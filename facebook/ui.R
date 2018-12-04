@@ -56,7 +56,7 @@ navbarPage("Facebook",
                 c("10-19", "20-29", "30-39", "40-49", "50-59", "60-69", "70+"), selected = "10-19")
         ),
       mainPanel(
-        plotOutput("scatterplot1")
+        plotlyOutput("scatterplot1")
       )
     )
   ),
@@ -68,7 +68,7 @@ navbarPage("Facebook",
                            c("10-19", "20-29", "30-39", "40-49", "50-59", "60-69", "70+"), selected = "10-19")
         ),
       mainPanel(
-        plotOutput("scatterplot2")
+        plotlyOutput("scatterplot2")
       )
     )
   )

@@ -1,7 +1,7 @@
 library(dplyr)
 library(ggplot2)
 
-facebook_info <- read.csv(file = "./facebook.csv", 
+facebook_info <- read.csv(file = "../facebook.csv", 
                      stringsAsFactors = FALSE)
 
 gender_likes_graph <- function(this_data)

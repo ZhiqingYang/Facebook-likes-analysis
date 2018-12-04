@@ -5,7 +5,7 @@ library(plotly)
 
 #plot
 graph3 <- function(age_df) {
-  plot_ly(data = df, x = ~likes, y = ~likes_received, color = ~AgeGroup)
+  plot_ly(data = age_df, x = ~likes, y = ~likes_received, type = 'scatter', mode = 'markers')
 }
 
 

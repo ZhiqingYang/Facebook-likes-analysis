@@ -7,9 +7,11 @@ navbarPage("Facebook",
   tabPanel("Overview",
     sidebarLayout(
       sidebarPanel(
-        p("Facebook data is available ", a("here.",
+        p("The Facebook data we used is available ", a("here.",
           href = "https://www.kaggle.com/sheenabatra/facebook-data")),
-        p("Major Libraries Used: ", tags$b("plotly, dplyr, shinythemes")),
+        p("Our code can be accessed on ", a("GitHub.",
+        href = "https://github.com/mc0504-1574813/Info201-BD6-Final-Project")),
+        p("Major libraries used: ", tags$b("plotly, dplyr, shinythemes")),
         p("Data Reading: ", tags$b("csv"))
       ),
       mainPanel(

@@ -5,8 +5,8 @@ account: mc0504
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 604640
-bundleId: 1741895
+bundleId: 1741937
 url: https://mc0504.shinyapps.io/facebook_correlations/
-when: 1543999156.14227
+when: 1544000751.2524
 asMultiple: FALSE
 asStatic: FALSE

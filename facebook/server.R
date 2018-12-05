@@ -45,7 +45,7 @@ server <- function(input, output) {
 
   output$scatterplot1 <- renderPlotly({
     this_age <- filter(facebook, AgeGroup == input$age_friendships)
-    if (input$friendships == "Friendships initiated") {
+    if (input$friendships == "Friendships Initiated") {
       age_chart <- group_by(this_age, age) %>%
         summarize(median = median(friendships_initiated))
     } else {

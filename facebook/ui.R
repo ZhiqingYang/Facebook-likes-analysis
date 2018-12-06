@@ -66,14 +66,15 @@ navbarPage("Facebook",
         h4(tags$b("Summary:")),
         p(paste0("The three charts about 'Gender vs. Likes Received' produce ",
                  "similar correlations. On mobile, females get an average of ",
-                 "106 more likes than males; on web, females get an average ",
-                 "of 77 more likes than males. Combining both, females get an ",
-                 "average of 183 more likes than males. From the results, we ",
-                 "can safely conclude that females generally receive more ",
-                 "likes on their Facebook profiles than males. We predict ",
-                 "this patterns occurs because females generally post ",
-                 "more contents on social media, particularly those that ",
-          "are attractive such as selfies, which brings in more attention."))
+                 "106 more likes per person than males; on web, females get ",
+                 "an average of 77 more likes per person than males. ",
+                 "Combining both, females get an average of 183 more likes ",
+                 "per person than males. From the results, we can safely ",
+                 "conclude that females generally receive more likes on their ",
+                 "Facebook profiles than males. We predict this pattern ",
+                 "occurs because females generally post more contents on ",
+                 "social media, particularly those that are attractive such ",
+                 "as selfies, which brings in more attention."))
       )
     )
   ),
@@ -103,10 +104,11 @@ navbarPage("Facebook",
                  "possibly because people in this demographic may tend to ",
                  "restrict their social media circles to a smaller group of ",
                  "friends. Finally, the possible reason behind accounts ages ",
-                 "70+ with the highest number of friend counts and friendships ",
-                 "initiated could be spam accounts or robots. Otherwise, it ",
-                  "would be unrealistic for that many individuals in the older ",
-                 "age group to have substantial friend connections. "))
+                 "70+ with the highest number of friend counts and ",
+                 "friendships initiated could be spam accounts or robots. ",
+                 "Otherwise, it would be unrealistic for that many ",
+                 "individuals in the older age group to have substantial ",
+                 "friend connections. "))
       )
     )
   ),

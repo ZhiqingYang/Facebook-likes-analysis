@@ -102,10 +102,11 @@ navbarPage("Facebook",
                  "initiated. It may stabilize into the middle-aged years ",
                  "possibly because people in this demographic may tend to ",
                  "restrict their social media circles to a smaller group of ",
-                 "friends. Finally, individuals who are older may have more ",
-                 "time to use Facebook, as this social media has also gotten ",
-                 "more popular among older demographics. This may explain the ",
-                 "high count of friendships for them."))
+                 "friends. Finally, the possible reason behind accounts ages ",
+                 "70+ with the highest number of friend counts and friendships ",
+                 "initiated could be spam accounts or robots. Otherwise, it ",
+                  "would be unrealistic for that many individuals in the older ",
+                 "age group to have substantial friend connections. "))
       )
     )
   ),
